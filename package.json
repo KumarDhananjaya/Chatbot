@@ -1,0 +1,46 @@
+{
+  "name": "chatbot-edui2018",
+  "version": "1.0.0",
+  "description": "edUi Conference chatbot for the 2018 event",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ./server.js",
+    "build": "tsc -p .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/szul/chatbot-edui2018.git"
+  },
+  "keywords": [
+    "chatbot",
+    "bots",
+    "bot",
+    "framework",
+    "edui"
+  ],
+  "author": "Michael Szul <michael@szul.us>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/szul/chatbot-edui2018/issues"
+  },
+  "homepage": "https://github.com/szul/chatbot-edui2018#readme",
+  "dependencies": {
+    "botbuilder": "^4.3.4",
+    "botbuilder-ai": "^4.3.4",
+    "botbuilder-azure": "^4.3.4",
+    "botbuilder-dialogs": "^4.3.4",
+    "botframework-config": "^4.3.4",
+    "cheerio": "^1.0.0-rc.2",
+    "dotenv": "^6.0.0",
+    "metronical.proto": "^0.1.0",
+    "moment": "^2.22.2",
+    "restify": "^7.2.1"
+  },
+  "devDependencies": {
+    "typescript": "^2.9.2",
+    "@types/cheerio": "^0.22.8",
+    "@types/dotenv": "^4.0.3",
+    "@types/restify": "^7.2.2"
+  }
+}
